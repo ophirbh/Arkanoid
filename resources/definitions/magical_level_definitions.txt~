@@ -1,0 +1,79 @@
+
+# Level 1
+
+START_LEVEL
+level_name:Italy
+ball_velocities:45,550 -45,550 -30,550 30,550
+background:image(background_images/italy.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/italy_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:26
+START_BLOCKS
+-
+-
+-
+-iiiiiitttttt--
+-
+-
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+
+START_LEVEL
+level_name: Britain
+ball_velocities:45,550 46,550 47,550
+background:image(background_images/britain.jpg)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/britain_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:135
+START_BLOCKS
+-
+-
+ggggggggggggggg
+ggggggggggggggg
+ggggggggggggggg
+-
+-
+-
+-
+-
+-
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+
+START_LEVEL
+level_name: France
+ball_velocities:45,550
+background:image(background_images/france.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/france_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:105
+START_BLOCKS
+-
+-
+-fffffffffffff
+-fffffffffffff
+-fffffffffffff
+-
+-
+-
+-
+
+END_BLOCKS
+END_LEVEL
